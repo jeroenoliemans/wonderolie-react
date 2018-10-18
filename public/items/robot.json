@@ -1,0 +1,12 @@
+{
+    "id": "robot",
+    "displaydate": "2007 february",
+    "description": "Created during a Robotics course at the KABB at The hague. The main characteristics of the robot was to seek the light. We equipped the robot with collision detection. The robot was build from a Barbie toy car, two citrus presses, an old XBOX controller and of course an Arduino board.",  
+    "images": [
+        "img/portfolio/detail/robot1.jpg",
+        "img/portfolio/detail/robot2.jpg"
+    ], 
+    "name": "Light seeking robot", 
+    "skills": ["Arduino", "electronics", "hotmelt", "Breaking toys" ],
+    "employer": "Wonderolie"
+}

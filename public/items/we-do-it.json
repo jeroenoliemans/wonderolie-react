@@ -1,0 +1,15 @@
+{
+    "id": "we-do-it",
+    "displaydate": "2013 july",
+    "description": "After a long time we finally released our new multilingual company website. Responsive, easy to manage and a fresh design were the requirements for the site.  Allong with the main site came two subsidary sites: for DNN and nopCommerce. The main site incorporates many CSS3 animations and javascript functionality for enhanced usability.",  
+    "images": [
+        "img/portfolio/detail/wdi1.jpg", 
+        "img/portfolio/detail/wdi2.jpg", 
+        "img/portfolio/detail/wdi3.jpg",
+        "img/portfolio/detail/wdi4.jpg"
+    ], 
+    "name": "WE-DO-IT", 
+    "skills": ["HTML5/ CSS3", "jQuery / JavaScript", "Bootstrap", "Info graphics" ],
+    "employer": "We-Do-It BV",
+    "url": "http://www.we-do-it.nl"
+}

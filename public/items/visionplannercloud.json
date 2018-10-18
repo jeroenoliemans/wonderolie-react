@@ -1,0 +1,17 @@
+{
+    "id": "visionplannercloud",
+    "displaydate": "2014 january",
+    "description": "In 2014 I was employed at the scrum team at Visionplanner working for their MS Azure cloud application. The application can connect with a multitude of bookkeeping applications and present the financial information with custom presentations and forecasts.",  
+    "images": [
+        "img/portfolio/detail/vp1.jpg", 
+        "img/portfolio/detail/vp2.jpg", 
+        "img/portfolio/detail/vp3.jpg", 
+        "img/portfolio/detail/vp4.jpg", 
+        "img/portfolio/detail/vp5.jpg", 
+        "img/portfolio/detail/vp6.jpg" 
+    ], 
+    "name": "Visionplannercloud", 
+    "skills": ["JavaScript/ Knockout/ Require", "HTML5/ CSS3(less)", "JIRA/ Scrum" ],
+    "employer": "Visionplanner",
+    "url": "http://www.visionplannercloud.nl/"
+}

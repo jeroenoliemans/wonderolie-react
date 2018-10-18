@@ -1,0 +1,15 @@
+{
+    "id": "hogeschool-van-amsterdam",
+    "displaydate": "2010 April",
+    "description": "A faculty guide for the Amsterdam, University of Applied Sciences was developed by Evident Interactive I participated in a team with three flash developers/ designers. During the project I focussed on the video players and the quiz modules",  
+    "images": [
+        "img/portfolio/detail/hva1.jpg", 
+        "img/portfolio/detail/hva2.jpg",
+        "img/portfolio/detail/hva3.jpg",
+        "img/portfolio/detail/hva4.jpg"
+    ], 
+    "name": "HvA: Technical faculty guide", 
+    "skills": ["Actionscript 3 (OOP)", "Flash Webservices", "YouTube AS3 API" ],
+    "employer": "Evident Interactive",
+    "url": "http://www.hvatechniekwijzer.nl"
+}

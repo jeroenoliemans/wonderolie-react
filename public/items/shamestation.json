@@ -1,0 +1,14 @@
+{
+    "id": "shamestation",
+    "displaydate": "2006 january",
+    "description": "Created during a semester project at MediaTechnology ( with Ralph Kok and Nicolette Lelieveld ). The shamestation requires two users: one player and one human avatar. On player plays a game FPS like, and the blindfolded avatar get instructed by the helmet. The Shamestation perfomed at STRP 2007 and has received a publication",  
+    "images": [
+        "img/portfolio/detail/shamestation1.jpg",
+        "img/portfolio/detail/shamestation2.jpg",
+        "img/portfolio/detail/shamestation3.jpg"
+    ], 
+    "name": "Shamestation, real life avatar", 
+    "skills": [ "Concepting", "Processing", "electronics", "construction", "Breaking toys" ],
+    "employer": "Leiden University",
+    "url": "http://mediatechnology.leiden.edu/research/publications/shamestation"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "Allerd",
+    "displaydate": "2006 November",
+    "description": "For a friend of my I made this website. He wanted a simple website which he could edit himself with a strong personal look and feel..",  
+    "images": [
+        "img/portfolio/detail/allerd.jpg"
+    ], 
+    "name": "Allerd", 
+    "skills": ["HTML / CSS", "Photoshop", "Flash" ],
+    "employer": "Wonderolie",
+    "url": "http://www.allerd.nl"
+}

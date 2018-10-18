@@ -1,0 +1,14 @@
+{
+    "id": "gitpnl",
+    "displaydate": "2008 September",
+    "description": "The corporate website of GITP, GITP is the biggest dutch HRM resource supplier. It is a big website build with a Sitecore backend. I was the frontend developer of the team, this site required more custom features than there previous sites, therefore jQuery became quite handy during this project. During the development I helped out with backend work mainly XSL templating and JavaScript.",  
+    "images": [
+        "img/portfolio/detail/gitpnl1.jpg", 
+        "img/portfolio/detail/gitpnl2.jpg",
+        "img/portfolio/detail/gitpnl3.jpg"
+    ], 
+    "name": "GITP", 
+    "skills": ["HTML/CSS", "jQuery / JavaScript", "Sitecore CMS", "XSL" ],
+    "employer": "Evident Interactive",
+    "url": "http://www.gitp.nl"
+}

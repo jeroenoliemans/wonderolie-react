@@ -1,0 +1,14 @@
+{
+    "id": "odyssee-service",
+    "displaydate": "2014 january",
+    "description": "I created the frontend, based on the pretty design I was given for OdysseeMobile. The site is one of the main pillars for their marketing, hence the site should appeal prospects for their services. The fresh design combined with the “To the point” copy and the responsive behaviour of the site should appeal many visitors.",  
+    "images": [
+        "img/portfolio/detail/odyssee1.jpg", 
+        "img/portfolio/detail/odyssee4.jpg", 
+        "img/portfolio/detail/odyssee5.jpg"
+    ], 
+    "name": "Odyssee Service", 
+    "skills": ["HTML5/ CSS3", "jQuery / JavaScript", "Bootstrap", "SVG" ],
+    "employer": "We-Do-It BV",
+    "url": "http://www.odysseeservice.com/"
+}

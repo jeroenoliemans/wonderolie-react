@@ -1,0 +1,21 @@
+.PortFolioListItem {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transition: all ease-in 400ms;
+}
+
+.PortFolioListItem:hover {
+  transform: scale(1) rotate(0deg);
+}
+
+.PortFolioListItemBox {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  max-width: 360px;
+  max-height: 240px;
+  padding-bottom: 52%;
+}

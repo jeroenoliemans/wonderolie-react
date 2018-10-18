@@ -1,0 +1,13 @@
+{
+    "id": "yourfuture",
+    "displaydate": "2009 November",
+    "description": "Yourfuture.tv is an video portal to make it possible for companies to present themselves. The video's of the companies are shown on the websites and on smaller players on the company website or on other portals ( for example Monsterboard, or CARP ). There are three types of players ( one with filtering, one with clip navigation and a simple player ) each player can be custom styled by a .NET backend.",  
+    "images": [
+        "img/portfolio/detail/yourfuture1.jpg", 
+        "img/portfolio/detail/yourfuture2.jpg"
+    ], 
+    "name": "Yourfuture.tv and Scholieren.tv", 
+    "skills": ["Actionscript 3 (OOP)", "Flash media server 3.5", "Flash remoting ( FluorineFx )", "SWFAddress" ],
+    "employer": "Evident Interactive",
+    "url": "http://www.yourfuture.tv"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "petfoodplaza",
+    "displaydate": "2012 april",
+    "description": "Petfoodplaza is a webshop portal for petfoot create on NopCommerce an opensource webshop CMS based on .NET MVC. My task was to create the theme, using a mixture of Razor and regular front-end developing.",  
+    "images": [
+        "img/portfolio/detail/pfp1.jpg", 
+        "img/portfolio/detail/pfp2.jpg"
+    ], 
+    "name": "Petfoodplaza", 
+    "skills": ["HTML5/ CSS3", "jQuery / JavaScript", ".NET MVC / Razor", "NopCommerce" ],
+    "employer": "We-Do-It BV",
+    "url": "http://www.petfoodplaza.nl"
+}

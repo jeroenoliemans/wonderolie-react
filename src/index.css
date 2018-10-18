@@ -1,0 +1,16 @@
+:root {
+  --bg-dark: #00585F;
+  --bg-light: #009393;
+  --content-light: #FFFCC4;
+  --content-darker: #F0EDBB;
+  --interactive: #FF3800;
+  --interactive-light: #f17b5a;
+  --text: #13172b44;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--bg-dark);
+}

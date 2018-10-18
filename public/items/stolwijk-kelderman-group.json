@@ -1,0 +1,14 @@
+{
+    "id": "stolwijk-kelderman-group",
+    "displaydate": "2013 february",
+    "description": "The scope of this project was the creation of multiple sites for different subsidiaries of the Stolwijk accountancy group with a consistent look and feel. My tasks involved front-end, scripting and coordination of the implementation.",  
+    "images": [
+        "img/portfolio/detail/skgroep1.jpg", 
+        "img/portfolio/detail/skgroep2.jpg", 
+        "img/portfolio/detail/skgroep3.jpg"
+    ], 
+    "name": "Stolwijk Kelderman Group", 
+    "skills": ["HTML5/ CSS3", "jQuery / JavaScript" ],
+    "employer": "We-Do-It BV",
+    "url": "http://www.stolwijkkelderman.nl"
+}

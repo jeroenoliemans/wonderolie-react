@@ -1,0 +1,15 @@
+{
+    "id": "stichting-bio",
+    "displaydate": "2013 april",
+    "description": "Stichting Bio is a foundation which partially receives its funding by cinema visitors, therefore the site is fully responsive. The site can be maintained with great flexibillity by the CMS.",  
+    "images": [
+        "img/portfolio/detail/bio1.jpg", 
+        "img/portfolio/detail/bio2.jpg", 
+        "img/portfolio/detail/bio3.jpg",
+        "img/portfolio/detail/bio4.jpg"
+    ], 
+    "name": "Stichting Bio", 
+    "skills": ["HTML5/ CSS3", "jQuery / JavaScript", "Bootstrap" ],
+    "employer": "We-Do-It BV",
+    "url": "http://www.stichtingbio.nl"
+}

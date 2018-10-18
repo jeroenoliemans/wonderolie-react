@@ -1,0 +1,13 @@
+{
+    "id": "actm",
+    "displaydate": "2009 October",
+    "description": "ACTM this company needed a website and they needed it fast, within a week they wanted the site live with a backend. Filled with content from a Kentico backend the site was ready in 4 days.",  
+    "images": [
+        "img/portfolio/detail/actm1.jpg", 
+        "img/portfolio/detail/actm2.jpg"
+    ], 
+    "name": "ACTM", 
+    "skills": ["HTML5/ CSS3", "jQuery / JavaScript", "Kentico .NET CMS" ],
+    "employer": "Evident Interactive",
+    "url": "http://www.actm.sg"
+}

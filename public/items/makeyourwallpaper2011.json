@@ -1,0 +1,14 @@
+{
+    "id": "makeyourwallpaper2011",
+    "displaydate": "2011 October",
+    "description": "MakeYourWallpaper makes it possible to create wallpapers with several user uploaded images for all the common resolutions. The design is kept simple to maintain the focus on the interface of the application. The application is fast and makes use of modern web standards and HTML5 API's. The site is managed with Wordpress. The application itself is optimized with the HTML5 Boilerplate. ",  
+    "images": [
+        "img/portfolio/detail/myw1.jpg", 
+        "img/portfolio/detail/myw2.jpg",
+        "img/portfolio/detail/myw3.jpg"
+    ], 
+    "name": "MakeYourWallpaper", 
+    "skills": ["HTML5/ CSS3", "jQuery / JavaScript", "Canvas API", "File API", "PHP", "Wordpress" ],
+    "employer": "Wonderolie",
+    "url": "http://www.makeyourwallpaper.com"
+}

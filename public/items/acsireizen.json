@@ -1,0 +1,16 @@
+{
+    "id": "acsireizen",
+    "displaydate": "2017 september",
+    "description": "At ACSI I implemented the frontend ACSI Campingtours, the site was outdated and need a quick though thorough remake. We used es6 modules and removed Compass to make it more easy to maintain the site in the future. We used the Google directions API to get the tourlines for the map. The site has been made fully responsive and more attractive for future campers.",
+    "images": [
+        "img/portfolio/detail/acsireizen1.jpg",
+        "img/portfolio/detail/acsireizen2.jpg",
+        "img/portfolio/detail/acsireizen3.jpg",
+        "img/portfolio/detail/acsireizen4.jpg",
+        "img/portfolio/detail/acsireizen5.jpg"
+    ],
+    "name": "ACSI Campingtours",
+    "skills": ["ES6", "Redux", "SVG", "SCSS", "Webpack"],
+    "employer": "ACSI Campsites",
+    "url": "http://www.eurocampings.nl/"
+}

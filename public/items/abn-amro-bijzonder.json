@@ -1,0 +1,13 @@
+{
+    "id": "abn-amro-bijzonder",
+    "displaydate": "2012 october",
+    "description": "Scripting, front-end and templating with xsl where my main tasks during the project. The site follows the ABN AMRO styleguide strictly where possible. The site functions as an interesting mix of a digital brochure and a webshop.",  
+    "images": [
+        "img/portfolio/detail/bijzonder1.jpg", 
+        "img/portfolio/detail/bijzonder2.jpg"
+    ], 
+    "name": "ABN AMRO Bijzonder fall 2012", 
+    "skills": ["HTML5/ CSS3", "jQuery / JavaScript", "XSL" ],
+    "employer": "We-Do-It BV",
+    "url": "http://www.aa-bijzonder.nl"
+}

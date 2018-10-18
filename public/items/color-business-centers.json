@@ -1,0 +1,14 @@
+{
+    "id": "color-business-centers",
+    "displaydate": "2012 september",
+    "description": "For this client I created the front-end which is used by several (multilingual) sites for ColorBC. The sites were part of total corporate identity makeover. The sites use jQuery for interactive maps and navigation.",  
+    "images": [
+        "img/portfolio/detail/cbc1.jpg", 
+        "img/portfolio/detail/cbc2.jpg",
+        "img/portfolio/detail/cbc3.jpg"
+    ], 
+    "name": "Color Business Centers", 
+    "skills": ["HTML5/ CSS3", "jQuery / JavaScript" ],
+    "employer": "We-Do-It BV",
+    "url": "http://www.colorbc.nl"
+}

@@ -1,0 +1,14 @@
+{
+    "id": "boerhaave",
+    "displaydate": "2014 december",
+    "description": "In december 2014, I started with the front-end for Boerhaave a Sumedia client. It involved regular front-end tasks as well as Wordpress configuration and developement.",  
+    "images": [
+        "img/portfolio/detail/boerhaave1.jpg", 
+        "img/portfolio/detail/boerhaave2.jpg", 
+        "img/portfolio/detail/boerhaave3.jpg" 
+    ], 
+    "name": "Boerhaave", 
+    "skills": ["HTML5/ CSS3", "JavaScript", "Wordpress"],
+    "employer": "Sumedia",
+    "url": "http://www.boerhaave.nl/"
+}

@@ -1,0 +1,16 @@
+{
+    "id": "acsibooking",
+    "displaydate": "2016 december",
+    "description": "For ACSI I was the frontend developer for ACSI Booking, their new multilingual booking platform. It makes it possible for customers to book online for all the available campsites. The booking site needed to be themable since it had multiple entry sites. The proposal search got an overhaul in which Redux was implemented to maintain state.",
+    "images": [
+        "img/portfolio/detail/acsibooking1.jpg",
+        "img/portfolio/detail/acsibooking2.jpg",
+        "img/portfolio/detail/acsibooking3.jpg",
+        "img/portfolio/detail/acsibooking4.jpg",
+        "img/portfolio/detail/acsibooking5.jpg"
+    ],
+    "name": "ACSI Booking",
+    "skills": ["ES6", "Redux", "HTML", "SCSS", "Resalys PMS", "Gulp/NPM"],
+    "employer": "ACSI Campsites",
+    "url": "http://www.eurocampings.nl/"
+}

@@ -1,0 +1,11 @@
+{
+    "id": "wonderolie2009",
+    "displaydate": "2009 June",
+    "description": "My new portfolio, made with flex. I tried to make an simple portfolio with a nice an fluid interaction. And easy to update to keep the items recent.",  
+    "images": [
+        "img/portfolio/detail/wonderolieportfolio.jpg"
+    ], 
+    "name": "ACTM", 
+    "skills": ["Adobe Flex", "Cairngorm MVC", "SWFAdress" ],
+    "employer": "Wonderolie"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "makeyourwallpaper2008",
+    "displaydate": "2008 November",
+    "description": "This website makes it possible for users to upload their favourite picture and give it a nice frame and position it on their desktop. The result is a clean and personal wallpaper while keeping a productive desktop, from nettop to desktop.",  
+    "images": [
+        "img/portfolio/detail/makeyourwallpaper1.jpg", 
+        "img/portfolio/detail/makeyourwallpaper2.jpg"
+    ], 
+    "name": "MakeYourWallpaper", 
+    "skills": ["Adobe Flex", "AMFphp", "jQuery" ],
+    "employer": "Wonderolie",
+    "url": "http://www.makeyourwallpaper.com"
+}

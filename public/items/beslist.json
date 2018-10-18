@@ -1,0 +1,17 @@
+{
+    "id": "beslist.nl",
+    "displaydate": "2014 december",
+    "description": "At beslist.nl I currently work at the selfservice team architecting and creating the front-end for the selfservice site for shoppingcart clients.",  
+    "images": [
+        "img/portfolio/detail/beslist1.jpg", 
+        "img/portfolio/detail/beslist2.jpg", 
+        "img/portfolio/detail/beslist3.jpg", 
+        "img/portfolio/detail/beslist4.jpg", 
+        "img/portfolio/detail/beslist5.jpg", 
+        "img/portfolio/detail/beslist6.jpg"
+    ], 
+    "name": "beslist.nl", 
+    "skills": ["HTML5/ CSS3", "JavaScript", "Symfony"],
+    "employer": "beslist.nl",
+    "url": "http://www.beslist..nl/"
+}

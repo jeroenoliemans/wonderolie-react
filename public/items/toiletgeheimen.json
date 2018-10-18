@@ -1,0 +1,12 @@
+{
+    "id": "toiletgeheimen",
+    "displaydate": "2009 June",
+    "description": "This website asks people to share their bathroom secrets anonymously. It is a promotional site for a diary products manufaturer. I joined the team for actionscript development, mainly backend connections and XML handling.",  
+    "images": [
+        "img/portfolio/detail/toiletgeheimen1.jpg",
+        "img/portfolio/detail/toiletgeheimen2.jpg"
+    ], 
+    "name": "Danone Toiletgeheimen", 
+    "skills": ["Actionscript 3", "httpServices" ],
+    "employer": "Wonderolie"
+}

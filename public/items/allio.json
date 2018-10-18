@@ -1,0 +1,14 @@
+{
+    "id": "allio",
+    "displaydate": "2012 march",
+    "description": "Allio.nl is a large childcare organisation in the eastern provinces of the Netherlands. My main task was the front-end for the corporate site, the chilcare locations sites and the intranet. After completing the front-end i helped implementing site modules and supported the organisations with content management.",  
+    "images": [
+        "img/portfolio/detail/allio1.jpg", 
+        "img/portfolio/detail/allio2.jpg",
+        "img/portfolio/detail/allio3.jpg"
+    ], 
+    "name": "Allio", 
+    "skills": ["HTML5/ CSS3", "jQuery / JavaScript", "Dotnetnuke", "NopCommerce" ],
+    "employer": "We-Do-It BV",
+    "url": "http://www.allio.nl"
+}

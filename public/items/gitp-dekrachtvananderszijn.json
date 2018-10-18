@@ -1,0 +1,12 @@
+{
+    "id": "gitp-dekrachtvananderszijn",
+    "displaydate": "2007 July",
+    "description": "In 2007 gitp launched several theme sites this website has its focus on the multicultural society in the Netherlands. The site is build with a Sitecore backend. I was the frontend developer of the team. During the development I helped out with backend work mainly XSL templating.",  
+    "images": [
+        "img/portfolio/detail/gitpdkvazblog.jpg", 
+        "img/portfolio/detail/gitpdkvazarticle.jpg"
+    ], 
+    "name": "GITP", 
+    "skills": ["HTML/CSS", "jQuery / JavaScript", "Sitecore CMS", "XSL" ],
+    "employer": "Evident Interactive"
+}

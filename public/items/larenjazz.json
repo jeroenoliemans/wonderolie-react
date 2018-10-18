@@ -1,0 +1,11 @@
+{
+    "id": "larenjazz",
+    "displaydate": "2004 July",
+    "description": "Webdesign and realisation for the LarenJazz a known festival in Laren ( the Netherlands ). The was built to make is easy to renew festival information every year ",  
+    "images": [
+        "img/portfolio/detail/larenjazz.jpg"
+    ], 
+    "name": "Laren Jazz", 
+    "skills": ["Dreamweaver", "Photoshop", "Illustrator" ],
+    "employer": "De vesting Design"
+}

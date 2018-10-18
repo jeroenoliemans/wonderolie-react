@@ -1,0 +1,14 @@
+{
+    "id": "florius",
+    "displaydate": "2007 January",
+    "description": "At puurpxl I was part of the interaction design team for Florius, a dutch financial corporation.",  
+    "images": [
+        "img/portfolio/detail/florius1.jpg", 
+        "img/portfolio/detail/florius2.jpg",
+        "img/portfolio/detail/florius3.jpg"
+    ], 
+    "name": "Florius", 
+    "skills": ["Visio", "Indesign", "html/ css", "Flash" ],
+    "employer": "Puurpxl",
+    "url": "http://www.florius.nl"
+}

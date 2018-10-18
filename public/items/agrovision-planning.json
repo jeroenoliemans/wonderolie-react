@@ -1,0 +1,13 @@
+{
+    "id": "agrovision-planning",
+    "displaydate": "2013 october",
+    "description": "Agrovison asked We-do-it to develop a planning application, I was responsible for the initial interaction design, prototyping and the final front-end. The requested framework was Durandal. The application makes it easy for customers to search a course / meeting and to lock an available timeslot.",  
+    "images": [
+        "img/portfolio/detail/agrovision1.jpg", 
+        "img/portfolio/detail/agrovision2.jpg"
+    ], 
+    "name": "Agrovision planning", 
+    "skills": ["HTML5/ CSS3", "Durandal", "Knockout", "Bootstrap", "Interaction design" ],
+    "employer": "We-Do-It BV",
+    "url": ""
+}

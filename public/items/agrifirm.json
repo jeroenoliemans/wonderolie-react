@@ -1,0 +1,14 @@
+{
+    "id": "agrifirm",
+    "displaydate": "2011 Februari",
+    "description": "Agrifirm.com is a large scale website, the main portal for all online activities of one of the largest dutch agricultural cooperative enterprises. The site incoporates a lot of sections, a webshop and several webapplications. My main job was the development of the front-end. Javascript and jQuery were essential for all the content rotators, lightboxes and several server and API communications. ",  
+    "images": [
+        "img/portfolio/detail/agr1.jpg", 
+        "img/portfolio/detail/agr2.jpg",
+        "img/portfolio/detail/agr3.jpg"
+    ], 
+    "name": "Agrifirm", 
+    "skills": ["HTML5/ CSS3", "jQuery / JavaScript", "XSLT" ],
+    "employer": "We-Do-It BV",
+    "url": "http://www.agrifirm.com"
+}

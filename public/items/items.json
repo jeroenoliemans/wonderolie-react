@@ -1,0 +1,322 @@
+   [
+     {
+       "id": "acsireizen",
+       "date": 201709,
+       "displaydate": "2017",
+       "title": "ACSI Reizen",
+       "featured": false,
+       "categories": ["Frontend", "Programming"],
+       "imageUrl": "img/portfolio/list/acsireizen1.jpg",
+        "sliderImage": "img/portfolio/slider/slide-acsireizen1.jpg"
+     },
+     {
+       "id": "acsibooking",
+       "date": 201612,
+       "displaydate": "2016",
+       "title": "ACSI Booking",
+       "featured": false,
+       "categories": ["Frontend", "Programming"],
+       "imageUrl": "img/portfolio/list/acsibooking3.jpg",
+       "sliderImage": "img/portfolio/slider/beslistslider.jpg"
+     },
+     {
+        "id": "beslist",
+        "date": 201501,
+        "displaydate": "2015 - 2016",
+        "title": "beslist.nl",
+        "featured": true,
+        "categories": ["Frontend", "Programming"],
+        "imageUrl": "img/portfolio/list/beslist2.jpg", 
+        "sliderImage": "img/portfolio/slider/beslistslider.jpg"
+      }, 
+      {
+        "id": "boerhaave",
+        "date": 201501,
+        "displaydate": "2015",
+        "title": "Boerhaave",
+        "featured": false,
+        "categories": ["Frontend", "Programming", "Design"],
+        "imageUrl": "img/portfolio/list/boerhaave1.jpg", 
+        "sliderImage": "img/portfolio/slider/vpcslider.jpg"
+      }, 
+      {
+        "id": "visionplannercloud",
+        "date": 201401,
+        "displaydate": "2014",
+        "title": "Visionplannercloud",
+        "featured": true,
+        "categories": ["Frontend", "Programming"],
+        "imageUrl": "img/portfolio/list/vp6.jpg", 
+        "sliderImage": "img/portfolio/slider/vpcslider.jpg"
+      },
+      {
+        "id": "odyssee-service",
+        "date": 201401,
+        "displaydate": "2014 january",
+        "title": "Odyssee Service",
+        "featured": true,
+        "categories": ["Frontend"],
+        "imageUrl": "img/portfolio/list/odyssee4.jpg", 
+        "sliderImage": "img/portfolio/slider/odyssee.jpg"
+      },
+       {
+        "id": "agrovision-planning",
+        "date": 201310,
+        "displaydate": "2013 october",
+        "title": "Agrovision Planning",
+        "featured": false,
+        "categories": ["Frontend", "Programming"],
+        "imageUrl": "img/portfolio/list/agrovision1.jpg", 
+        "sliderImage": "img/portfolio/slider/odyssee.jpg"
+      },
+      {
+        "id": "we-do-it",
+        "date": 201307,
+        "displaydate": "2013 july",
+        "title": "WE-DO-IT",
+        "featured": false,
+        "categories": ["Frontend", "Design"],
+        "imageUrl": "img/portfolio/list/wdi5.jpg", 
+        "sliderImage": "img/portfolio/slider/wdi1.jpg"
+      },
+       {
+        "id": "stichting-bio",
+        "date": 201304,
+        "displaydate": "2013 april",
+        "title": "Stichting Bio",
+        "featured": true,
+        "categories": ["Frontend"],
+        "imageUrl": "img/portfolio/list/bio1.jpg", 
+        "sliderImage": "img/portfolio/slider/bio1.jpg"
+      },
+    {
+        "id": "stolwijk-kelderman-group",
+        "date": 201302,
+        "displaydate": "2013 februari",
+        "title": "Stolwijk Kelderman Group",
+        "featured": true,
+        "categories": ["Frontend"],
+        "imageUrl": "img/portfolio/list/skgroep1.jpg", 
+        "sliderImage": "img/portfolio/slider/skgroep1.jpg"
+      },
+      {
+        "id": "abn-amro-bijzonder",
+        "date": 201210,
+        "displaydate": "2012 october",
+        "title": "ABN AMRO Bijzonder fall 2012",
+        "featured": true,
+        "categories": ["Frontend"],
+        "imageUrl": "img/portfolio/list/bijzonder1.jpg", 
+        "sliderImage": "img/portfolio/slider/bijzonder1.jpg"
+      },
+      {
+        "id": "color-business-centers",
+        "date": 201209,
+        "displaydate": "2012 september",
+        "title": "Color Business Centers",
+        "featured": true,
+        "categories": ["Frontend"],
+        "imageUrl": "img/portfolio/list/cbc1.jpg", 
+        "sliderImage": "img/portfolio/slider/cbc1.jpg"
+      },
+      {
+        "id": "petfoodplaza",
+        "date": 201204,
+        "displaydate": "2012 april",
+        "title": "www.petfoodplaza.nl",
+        "featured": false,
+        "categories": ["Frontend", "Programming"],
+        "imageUrl": "img/portfolio/list/pfp1.jpg", 
+        "sliderImage": "img/portfolio/slider/pfp1.jpg"
+      },
+      {
+        "id": "allio",
+        "date": 201203,
+        "displaydate": "2012 march",
+        "title": "www.allio.nl",
+        "featured": false,
+        "categories": ["Frontend"],
+        "imageUrl": "img/portfolio/list/allio1.jpg", 
+        "sliderImage": "img/portfolio/slider/skgroep1.jpg"
+      },
+      {
+        "id": "makeyourwallpaper2011",
+        "date": 201110,
+        "displaydate": "2011 October",
+        "title": "MakeYourWallpaper",
+        "featured": false,
+        "categories": ["Frontend", "Programming", "Design"],
+        "imageUrl": "img/portfolio/list/myw1.jpg", 
+        "sliderImage": "img/portfolio/slider/skgroep1.jpg"
+      },
+      {
+        "id": "agrifirm",
+        "date": 201102,
+        "displaydate": "2011 Februari",
+        "title": "Agrifirm",
+        "featured": false,
+        "categories": ["Frontend"],
+        "imageUrl": "img/portfolio/list/agr1.jpg", 
+        "sliderImage": "img/portfolio/slider/skgroep1.jpg"
+      },
+      {
+        "id": "treaty-of-utrecht",
+        "date": 201005,
+        "displaydate": "2010 May",
+        "title": "Treaty of Utrecht 2013",
+        "featured": false,
+        "categories": ["Frontend"],
+        "imageUrl": "img/portfolio/list/vvu1.jpg", 
+        "sliderImage": "img/portfolio/slider/skgroep1.jpg"
+      },
+      {
+        "id": "hogeschool-van-amsterdam",
+        "date": 201004,
+        "displaydate": "2010 April",
+        "title": "HvA: Technical faculty guide",
+        "featured": true,
+        "categories": ["Frontend", "Programming"],
+        "imageUrl": "img/portfolio/list/hva1.jpg", 
+        "sliderImage": "img/portfolio/slider/hva1.jpg"
+      },
+      {
+        "id": "yourfuture",
+        "date": 200911,
+        "displaydate": "2009 November",
+        "title": "Yourfuture.tv and Scholieren.tv",
+        "featured": false,
+        "categories": ["Frontend", "catwonderolieportfolio.jpg"],
+        "imageUrl": "img/portfolio/list/yourfuture1.jpg", 
+        "sliderImage": "img/portfolio/slider/yourfuture1.jpg"
+      },
+      {
+        "id": "actm",
+        "date": 200910,
+        "displaydate": "2009 October",
+        "title": "ACTM",
+        "featured": false,
+        "categories": ["Frontend"],
+        "imageUrl": "img/portfolio/list/actm1.jpg", 
+        "sliderImage": "img/portfolio/slider/actm1.jpg"
+      },
+      {
+        "id": "wonderolie2009",
+        "date": 200906,
+        "displaydate": "2009 June",
+        "title": "Wonderolie portfolio",
+        "featured": false,
+        "categories": ["Programming", "Design"],
+        "imageUrl": "img/portfolio/list/wonderolieportfolio.jpg", 
+        "sliderImage": "img/portfolio/slider/wonderolieportfolio.jpg"
+      },
+      {
+        "id": "toiletgeheimen",
+        "date": 200903,
+        "displaydate": "2009 March",
+        "title": "Danone Toiletgeheimen",
+        "featured": false,
+        "categories": ["Programming", "Frontend"],
+        "imageUrl": "img/portfolio/list/toiletgeheimen1.jpg", 
+        "sliderImage": "img/portfolio/slider/toiletgeheimen1.jpg"
+      },
+      {
+        "id": "makeyourwallpaper2008",
+        "date": 200811,
+        "displaydate": "2008 November",
+        "title": "Makeyourwallpaper.com",
+        "featured": false,
+        "categories": ["Frontend", "Programming", "Design"],
+        "imageUrl": "img/portfolio/list/makeyourwallpaper1.jpg", 
+        "sliderImage": "img/portfolio/slider/makeyourwallpaper1.jpg"
+      },
+      {
+        "id": "gitpnl",
+        "date": 200809,
+        "displaydate": "2008 September",
+        "title": "GITP",
+        "featured": true,
+        "categories": ["Frontend"],
+        "imageUrl": "img/portfolio/list/gitpnl1.jpg", 
+        "sliderImage": "img/portfolio/slider/gitpnl1.jpg"
+      },
+      {
+        "id": "gitp-dekrachtvananderszijn",
+        "date": 200707,
+        "displaydate": "2007 July",
+        "title": "GITP, dkvaz.nl",
+        "featured": false,
+        "categories": ["Frontend"],
+        "imageUrl": "img/portfolio/list/gitpdkvazarticle.jpg", 
+        "sliderImage": "img/portfolio/slider/gitpdkvazarticle.jpg"
+      },
+      {
+        "id": "robot",
+        "date": 200702,
+        "displaydate": "2007 februari",
+        "title": "Robot",
+        "featured": false,
+        "categories": ["Programming"],
+        "imageUrl": "img/portfolio/list/robot1.jpg", 
+        "sliderImage": "img/portfolio/slider/robot1.jpg"
+      },
+      {
+        "id": "florius",
+        "date": 200701,
+        "displaydate": "2007 januari",
+        "title": "Florius",
+        "featured": false,
+        "categories": ["Design"],
+        "imageUrl": "img/portfolio/list/florius1.jpg", 
+        "sliderImage": "img/portfolio/slider/florius1.jpg"
+      },
+      {
+        "id": "gemeente-apeldoorn",
+        "date": 200610,
+        "displaydate": "2006 october",
+        "title": "Gemeente Apeldoorn",
+        "featured": false,
+        "categories": ["Design"],
+        "imageUrl": "img/portfolio/list/apeldoorn.jpg", 
+        "sliderImage": "img/portfolio/slider/apeldoorn.jpg"
+      },
+       {
+        "id": "shamestation",
+        "date": 200601,
+        "displaydate": "2006 januari",
+        "title": "Shamestation",
+        "featured": true,
+        "categories": ["Programming"],
+        "imageUrl": "img/portfolio/list/shamestation1.jpg", 
+        "sliderImage": "img/portfolio/slider/shamestation1.jpg"
+      },
+      {
+        "id": "illustration",
+        "date": 200611,
+        "displaydate": "2006 november",
+        "title": "Illustration",
+        "featured": false,
+        "categories": ["Design"],
+        "imageUrl": "img/portfolio/list/illustration.jpg", 
+        "sliderImage": "img/portfolio/slider/illustration.jpg"
+      },
+      {
+        "id": "allerd",
+        "date": 200611,
+        "displaydate": "2006 november",
+        "title": "Allerd",
+        "featured": false,
+        "categories": ["Frontend", "Design"],
+        "imageUrl": "img/portfolio/list/allerd.jpg", 
+        "sliderImage": "img/portfolio/slider/allerd.jpg"
+      },
+      {
+        "id": "larenjazz",
+        "date": 200407,
+        "displaydate": "2004 july",
+        "title": "LarenJazz",
+        "featured": false,
+        "categories": ["Frontend", "Design"],
+        "imageUrl": "img/portfolio/list/larenjazz.jpg", 
+        "sliderImage": "img/portfolio/slider/larenjazz.jpg"
+      }
+   ]

@@ -1,0 +1,13 @@
+{
+    "id": "treaty-of-utrecht",
+    "displaydate": "2010 May",
+    "description": "Realised the front-end for: Treaty of Utrecht 2013. This foundation is developing a spectacular programme to celebrate the conclusion of the Treaty of Utrecht on 11 April 1713. The site incorporates four different color themes which are switched dynamically. jQuery takes care if the menu delay and the automatic placement of the playbuttons for the Vimeo containers.",  
+    "images": [
+        "img/portfolio/detail/vvu1.jpg", 
+        "img/portfolio/detail/vvu2.jpg",
+        "img/portfolio/detail/vvu3.jpg"
+    ], 
+    "name": "Treaty of Utrecht 2013", 
+    "skills": ["HTML5/ CSS3", "jQuery / JavaScript", "Kentico .NET CMS" ],
+    "employer": "Evident Interactive"
+}

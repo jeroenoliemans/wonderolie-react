@@ -1,0 +1,15 @@
+{
+    "id": "illustration",
+    "displaydate": "2000 - 2008",
+    "description": "I did a lot of web and print design before front-end became my main playground, I still love to create vector drawings and illustrations.",  
+    "images": [
+        "img/portfolio/detail/illustration1.jpg", 
+        "img/portfolio/detail/illustration2.gif", 
+        "img/portfolio/detail/illustration3.jpg",
+        "img/portfolio/detail/illustration4.jpg"
+    ], 
+    "name": "Graphic design", 
+    "skills": ["Illustrator", "Photoshop", "Fireworks", "Blender 3D" ],
+    "employer": "Wonderolie",
+    "url": ""
+}
