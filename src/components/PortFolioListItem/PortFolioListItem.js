@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import './PortFolioListItem.css';
+import { withRouter } from 'react-router';
 
 class PortFolioListItem extends Component {
   constructor(props) {
@@ -28,6 +30,7 @@ class PortFolioListItem extends Component {
       transform: `scale(1.${randomScale}) rotate(${randomDeg}deg)`,
       opacity: 1
     }
+    console.log(this.props.location.pathname);
 
     return (
       <div style={randomStyle} className="PortFolioListItem"> 
@@ -35,10 +38,11 @@ class PortFolioListItem extends Component {
               onClick={(e) => {this.itemClickHandler(e)}}
               style={backgroundStyle}>
           <h3>{portfolioItem.title}</h3>
+          { this.props.location.pathname === `/${portfolioItem.id}` ? <span>DETAIL</span> : null }
         </div>
       </div>
     );
   }
 }
 
-export default PortFolioListItem;
+export default withRouter(PortFolioListItem);
