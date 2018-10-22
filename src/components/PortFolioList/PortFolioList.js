@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './PortFolioList.css';
-import PortFolioListItem from '../PortFolioListItem/PortFolioListItem';
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import PortFolioListItemContainer from '../PortFolioListItemContainer/PortFolioListItemContainer';
+import { BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
+import { withRouter } from 'react-router';
 
 class PortFolioList extends Component {
   constructor(props) {
@@ -15,17 +16,17 @@ class PortFolioList extends Component {
 
     const portfolioListItems = items.map((item, index) => {
       return (
-        <Link  key={index} to={item.id}>
-          <PortFolioListItem portfolioItem={item}/>
-        </Link>
+        <NavLink className="test" activeClassName="PortFolioItemActive" activeStyle={{ color: 'red' }} key={index} to={`/${item.id}`}>
+          <PortFolioListItemContainer portfolioItem={item}/>
+        </NavLink>
       )
     });
 
     return (
       <Router>
-      <div className="PortFolioList">
-        {portfolioListItems}
-      </div>
+        <div className="PortFolioList">
+          {portfolioListItems}
+        </div>
       </Router>
     );
   }

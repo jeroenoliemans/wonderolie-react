@@ -6,18 +6,12 @@ import { withRouter } from 'react-router';
 class PortFolioListItem extends Component {
   constructor(props) {
     super(props);
-
-    this.itemClickHandler = this.itemClickHandler.bind(this);
   }
 
-  itemClickHandler(event) {
-    console.log(event);
-  }
 
   render() {
     const {
       portfolioItem,
-      itemClickHandler
     } = this.props;
 
     let backgroundStyle = {
@@ -30,12 +24,10 @@ class PortFolioListItem extends Component {
       transform: `scale(1.${randomScale}) rotate(${randomDeg}deg)`,
       opacity: 1
     }
-    console.log(this.props.location.pathname);
 
     return (
       <div style={randomStyle} className="PortFolioListItem"> 
         <div className="PortFolioListItemBox" 
-              onClick={(e) => {this.itemClickHandler(e)}}
               style={backgroundStyle}>
           <h3>{portfolioItem.title}</h3>
           { this.props.location.pathname === `/${portfolioItem.id}` ? <span>DETAIL</span> : null }
