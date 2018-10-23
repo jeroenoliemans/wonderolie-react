@@ -4,6 +4,8 @@ import PortFolioList from './components/PortFolioList/PortFolioList';
 import portFolioService  from './services/portFolioService';
 import PortfolioFilter from './components/PortFolioFilter/PortfolioFilter';
 import constants from './global/constants';
+import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import { withRouter } from 'react-router';
 
 let allItems = [];
 
@@ -55,15 +57,15 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Wonderolie passionate developer</h1>
-        </header>
-        <PortfolioFilter onCategoryChange={this.categoryChange} />
-        <PortFolioList items={this.state.items} />
-      </div>
+        <div className="App">
+          <header className="App-header">
+            <h1 className="App-title">Wonderolie passionate developer</h1>
+          </header>
+          <PortfolioFilter onCategoryChange={this.categoryChange} />
+          <PortFolioList items={this.state.items} />
+        </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);

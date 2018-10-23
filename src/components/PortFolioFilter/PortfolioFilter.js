@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './PortfolioFilter.css';
-import constants from '../../global/constants'
+import constants from '../../global/constants';
+import { withRouter } from 'react-router';
 
 
 class PortfolioFilter extends Component {
@@ -15,6 +16,8 @@ class PortfolioFilter extends Component {
   handleChange(event) {
     this.setState({currentFilter: event.target.value});
     this.props.onCategoryChange(event.target.value);
+
+    this.props.history.push('/')
   }
 
   render() {
@@ -41,4 +44,4 @@ class PortfolioFilter extends Component {
   }
 }
 
-export default PortfolioFilter;
+export default withRouter(PortfolioFilter);

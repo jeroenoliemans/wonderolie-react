@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PortFolioListItem from '../PortFolioListItem/PortFolioListItem';
 import PortFolioDetail from '../PortFolioDetail/PortFolioDetail';
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+
 import './PortFolioListItemContainer.css';
 import { withRouter } from 'react-router';
 

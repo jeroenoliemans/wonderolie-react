@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './PortFolioList.css';
 import PortFolioListItemContainer from '../PortFolioListItemContainer/PortFolioListItemContainer';
 import { BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
-import { withRouter } from 'react-router';
 
 class PortFolioList extends Component {
   constructor(props) {
@@ -23,11 +22,9 @@ class PortFolioList extends Component {
     });
 
     return (
-      <Router>
         <div className="PortFolioList">
           {portfolioListItems}
         </div>
-      </Router>
     );
   }
 }

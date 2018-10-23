@@ -10,6 +10,7 @@
 }
 
 .PortFolioListItemBox {
+  box-sizing: border-box;
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,4 +19,17 @@
   max-width: 360px;
   max-height: 240px;
   padding-bottom: 52%;
+  box-shadow: 2px 2px 40px #111;
+}
+
+.PortfolioLIstItemTitle {
+  background-color: var(--bg-light);
+  color: var(--text);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1em 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-width: 360px;
 }
