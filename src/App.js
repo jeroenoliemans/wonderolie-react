@@ -3,7 +3,7 @@ import './App.css';
 import PortFolioList from './components/PortFolioList/PortFolioList';
 import portFolioService  from './services/portFolioService';
 import PortfolioFilter from './components/PortFolioFilter/PortfolioFilter';
-import constants from './global/constants'
+import constants from './global/constants';
 
 let allItems = [];
 

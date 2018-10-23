@@ -1,21 +1,17 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import './PortFolioListItem.css';
+import { withRouter } from 'react-router';
 
 class PortFolioListItem extends Component {
   constructor(props) {
     super(props);
-
-    this.itemClickHandler = this.itemClickHandler.bind(this);
   }
 
-  itemClickHandler(event) {
-    console.log(event);
-  }
 
   render() {
     const {
       portfolioItem,
-      itemClickHandler
     } = this.props;
 
     let backgroundStyle = {
@@ -32,13 +28,13 @@ class PortFolioListItem extends Component {
     return (
       <div style={randomStyle} className="PortFolioListItem"> 
         <div className="PortFolioListItemBox" 
-              onClick={(e) => {this.itemClickHandler(e)}}
               style={backgroundStyle}>
           <h3>{portfolioItem.title}</h3>
+          { this.props.location.pathname === `/${portfolioItem.id}` ? <span>DETAIL</span> : null }
         </div>
       </div>
     );
   }
 }
 
-export default PortFolioListItem;
+export default withRouter(PortFolioListItem);
