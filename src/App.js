@@ -4,7 +4,7 @@ import PortFolioList from './components/PortFolioList/PortFolioList';
 import portFolioService  from './services/portFolioService';
 import PortfolioFilter from './components/PortFolioFilter/PortfolioFilter';
 import constants from './global/constants';
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+//import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { withRouter } from 'react-router';
 
 let allItems = [];
@@ -18,20 +18,19 @@ class App extends Component {
 
     this.state = {
       items: []
-  }
+    }
 
-  portFolioService.getPortFolioItems()
-    .then((result) => {
-      allItems = JSON.parse(result)
+    portFolioService.getPortFolioItems()
+      .then((result) => {
+        allItems = JSON.parse(result)
 
-      this.setState((state) => ({
-        items: allItems
-      }));
-    })
+        this.setState((state) => ({
+          items: allItems
+        }));
+      })
   }
 
   categoryChange(categoryId) {
-    console.log('categoryId', categoryId);
     let filterList = [];
 
     if (categoryId == 2) {

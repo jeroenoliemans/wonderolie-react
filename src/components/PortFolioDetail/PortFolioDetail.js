@@ -1,9 +1,21 @@
 import React, { Component } from 'react';
+import portFolioService  from '../../services/portFolioService';
 import './PortFolioDetail.css';
 
 class PortFolioDetail extends Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      detail: {}
+    }
+
+    portFolioService.getPortFolioItem(this.props.portfolioIid)
+      .then((result) => {
+        this.setState((state) => ({
+          detail: JSON.parse(result)
+        }));
+      })
   }
 
 
@@ -15,7 +27,7 @@ class PortFolioDetail extends Component {
     return (
       <div className="PortFolioDetail"> 
         <div className="PortFolioDetailBox">
-          <h1>{portfolioIid}</h1>
+          <h1>{this.state.detail.name}</h1>
         </div>
       </div>
     );
