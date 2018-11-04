@@ -28,6 +28,7 @@ class PortFolioDetail extends Component {
       <div className="PortFolioDetail"> 
         <div className="PortFolioDetailBox">
           <h1>{this.state.detail.name}</h1>
+          <p>{this.state.detail.description}</p>
         </div>
       </div>
     );
