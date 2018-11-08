@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import portFolioService  from '../../services/portFolioService';
+import PortfolioSlider from '../PortfolioSlider/PortfolioSlider';
 import './PortFolioDetail.css';
 
 class PortFolioDetail extends Component {
@@ -7,7 +8,15 @@ class PortFolioDetail extends Component {
     super(props);
 
     this.state = {
-      detail: {}
+      detail: {
+        name: '',
+        description: '',
+        employer: '',
+        id: '',
+        images: [],
+        skills: [],
+        url: ''
+      }
     }
 
     portFolioService.getPortFolioItem(this.props.portfolioIid)
@@ -28,6 +37,7 @@ class PortFolioDetail extends Component {
       <div className="PortFolioDetail"> 
         <div className="PortFolioDetailBox">
           <h1>{this.state.detail.name}</h1>
+          <PortfolioSlider sliderImages={this.state.detail.images} />
           <p>{this.state.detail.description}</p>
         </div>
       </div>

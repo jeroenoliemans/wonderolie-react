@@ -6,4 +6,6 @@
     height: 100%;
     padding-bottom: 52%;
     background-color: var(--content-light);
+    text-align: left;
+    padding: 1em;
 }
