@@ -17,7 +17,7 @@ class PortfolioFilter extends Component {
     this.setState({currentFilter: event.target.value});
     this.props.onCategoryChange(event.target.value);
 
-    this.props.history.push('/')
+    this.props.history.push('/');
   }
 
   render() {
