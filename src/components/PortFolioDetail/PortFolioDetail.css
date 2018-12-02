@@ -9,3 +9,28 @@
     text-align: left;
     padding: 1em;
 }
+
+.PortFolioDetailTitle {
+    flex: 1 1 0;
+}
+
+.PortFolioDetailMeta {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SkilllList {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.SkilllListItem {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.SkillListItemLabel {
+    margin-left: 1em;
+}

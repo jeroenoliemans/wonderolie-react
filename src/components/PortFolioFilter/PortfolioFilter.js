@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './PortfolioFilter.css';
 import constants from '../../global/constants';
+import { FiCode } from 'react-icons/fi';
 import { withRouter } from 'react-router';
 
 
@@ -27,7 +28,7 @@ class PortfolioFilter extends Component {
 
     const portfolioFilterItems = constants.categories.map((category, index) => {
       return (
-          <span key={index} className="PortFolioFilterLabel">{category}</span>
+          <span key={index} className="PortFolioFilterLabel"><FiCode />{category}</span>
       )
     });
 
