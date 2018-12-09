@@ -2,16 +2,19 @@ import React, { Component } from 'react';
 import './PortfolioSlider.css';
 import constants from '../../global/constants';
 import ReactSiema from './ReactSiema'
+import './PortfolioSlider.css'
 
 class PortfolioSlider extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      images: []
+      images: [],
+      width: '100%'
     };
 
     // Create the ref
+    this.containerRef = React.createRef();
     this.slider = React.createRef()
   }
 
@@ -21,6 +24,13 @@ class PortfolioSlider extends Component {
 
   nextSlide() {
     this.slider.next();
+  }
+
+  componentDidMount() {
+    if(this.containerRef.current.clientWidth < 360) {
+      // resize
+      this.setState({width: `${this.containerRef.current.clientWidth}px`});
+    }
   }
 
   // life cycle
@@ -33,6 +43,10 @@ class PortfolioSlider extends Component {
         sliderImages
     } = this.props;
 
+    let widthStyle = {
+      width: `${this.state.width}`
+    }
+
     let slider;
 
     const portfolioSliderImages = this.props.sliderImages.map((image, index) => {
@@ -42,12 +56,12 @@ class PortfolioSlider extends Component {
     });
 
     return (
-      <div className="PortFolioSlider">
+      <div style={widthStyle} ref={this.containerRef} className="PortFolioSlider">
         <ReactSiema ref={siema => this.slider = siema}>
           {portfolioSliderImages}
         </ReactSiema>
-        <button onClick={() => this.prevSlide()}>prev</button>
-            <button onClick={() => this.nextSlide()}>next</button>
+        <button className="PortFolioSliderPrev" onClick={() => this.prevSlide()}>prev</button>
+        <button className="PortFolioSliderNext" onClick={() => this.nextSlide()}>next</button>
       </div>
     );
   }

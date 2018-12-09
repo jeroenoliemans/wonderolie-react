@@ -3,8 +3,6 @@ import PortFolioListItem from '../PortFolioListItem/PortFolioListItem';
 import PortFolioDetail from '../PortFolioDetail/PortFolioDetail';
 import { withRouter } from 'react-router';
 import {BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
-import './PortFolioListItemContainer.css';
-
 
 class PortFolioListItemContainer extends Component {
   constructor(props) {
@@ -17,7 +15,7 @@ class PortFolioListItemContainer extends Component {
     } = this.props;
 
     return (
-      <div className={this.props.location.pathname === `/${portfolioItem.id}` ? 'PortFolioItemActive' : ''}> 
+      <div className={this.props.location.pathname === `/${portfolioItem.id}` ? 'PortFolioItemActive' : 'PortFolioItemContainer'}> 
           { this.props.location.pathname === `/${portfolioItem.id}` ? 
             <PortFolioDetail ClassName="PortFolioItemActive" portfolioIid={portfolioItem.id} />
             : 

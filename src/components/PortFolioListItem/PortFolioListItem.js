@@ -17,7 +17,8 @@ class PortFolioListItem extends Component {
     let backgroundStyle = {
       backgroundImage: `url(${portfolioItem.imageUrl})`
     }
-    let randomScale = parseInt(Math.random()*3, 10);
+    // let randomScale = parseInt(Math.random()*3, 10);
+    let randomScale = 0;
     //let randomDeg = Math.random()*5 -2;
     let randomDeg = 0;
 

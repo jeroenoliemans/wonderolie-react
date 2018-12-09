@@ -1,3 +1,18 @@
 .PortFolioSlider {
-  width: 360px;
+  width: 100%;
+  position: relative;
+  border-top: 5px solid var(--bg-light);
+  border-bottom: 7px solid var(--bg-light);
+}
+
+.PortFolioSliderPrev {
+  position: absolute;
+  left: 0;
+  top: 50%
+}
+
+.PortFolioSliderNext {
+  position: absolute;
+  right: 0;
+  top: 50%
 }
