@@ -28,7 +28,7 @@ class PortfolioFilter extends Component {
 
     const portfolioFilterItems = constants.categories.map((category, index) => {
       return (
-          <span key={index} className="PortFolioFilterLabel"><FiCode />{category}</span>
+          <span key={index} className="PortFolioFilterLabel"><FiCode /> {category}</span>
       )
     });
 

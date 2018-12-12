@@ -25,9 +25,11 @@
 .PortfolioLIstItemTitle {
   background-color: var(--interactive);
   color: var(--text);
-  font-weight: bold;
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
   text-decoration: none;
   padding: .3em 0;
   bottom: 0;
   margin: 0;
 }
+

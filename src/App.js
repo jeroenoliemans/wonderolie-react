@@ -60,7 +60,7 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             <img className="AppLogo" src={logo} />
-            <h1 className="App-title">Wonderolie passionate developer</h1>
+            <h1 className="HeaderTeaser">Wonderolie passionate developer</h1>
           </header>
           <PortfolioFilter onCategoryChange={this.categoryChange} />
           <PortFolioList items={this.state.items} />

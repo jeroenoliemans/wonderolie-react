@@ -2,7 +2,7 @@ const constants = {
     categories:  [
         "Design", 
         "Frontend", 
-        "Programming"
+        "Code"
     ]
 };
 

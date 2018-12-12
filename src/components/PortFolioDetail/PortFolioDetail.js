@@ -41,7 +41,7 @@ class PortFolioDetail extends Component {
             <h1 className="PortFolioDetailTitle">{this.state.detail.name}</h1>
             <PortfolioSlider sliderImages={this.state.detail.images} />          
             <SkilList listData={this.state.detail.skills} />  
-            <div className="PortFolioDetailDescription">{this.state.detail.description}</div>  
+            <p className="PortFolioDetailDescription">{this.state.detail.description}</p>  
           </section>
         </div>
       </div>
