@@ -25,6 +25,7 @@
 
 .PortFolioFilterLabel {
   width: auto;
+  cursor: pointer;
 }
 
 .range {

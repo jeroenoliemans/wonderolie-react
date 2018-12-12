@@ -10,6 +10,7 @@ class PortfolioFilter extends Component {
     super(props);
 
     this.handleChange = this.handleChange.bind(this);
+    this.handleLabelClick = this.handleLabelClick.bind(this);
 
     this.state = {currentFilter: 2};
   }
@@ -21,6 +22,12 @@ class PortfolioFilter extends Component {
     this.props.history.push('/');
   }
 
+  handleLabelClick(index) {
+      this.setState({currentFilter: (index + 1)});
+      this.props.onCategoryChange(index + 1);
+    this.props.history.push('/');
+  }
+
   render() {
     const {
         items
@@ -28,7 +35,7 @@ class PortfolioFilter extends Component {
 
     const portfolioFilterItems = constants.categories.map((category, index) => {
       return (
-          <span key={index} className="PortFolioFilterLabel"><FiCode /> {category}</span>
+          <span key={index} onClick={() => this.handleLabelClick(index)} className="PortFolioFilterLabel"><FiCode /> {category}</span>
       )
     });
 

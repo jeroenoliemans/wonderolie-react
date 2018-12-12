@@ -5,7 +5,7 @@
        "displaydate": "2017",
        "title": "ACSI Reizen",
        "featured": false,
-       "categories": ["Frontend", "Programming"],
+       "categories": ["Frontend", "Code"],
        "imageUrl": "img/portfolio/list/acsireizen1.jpg",
         "sliderImage": "img/portfolio/slider/slide-acsireizen1.jpg"
      },
@@ -15,7 +15,7 @@
        "displaydate": "2016",
        "title": "ACSI Booking",
        "featured": false,
-       "categories": ["Frontend", "Programming"],
+       "categories": ["Frontend", "Code"],
        "imageUrl": "img/portfolio/list/acsibooking3.jpg",
        "sliderImage": "img/portfolio/slider/beslistslider.jpg"
      },
@@ -25,7 +25,7 @@
         "displaydate": "2015 - 2016",
         "title": "beslist.nl",
         "featured": true,
-        "categories": ["Frontend", "Programming"],
+        "categories": ["Frontend", "Code"],
         "imageUrl": "img/portfolio/list/beslist2.jpg", 
         "sliderImage": "img/portfolio/slider/beslistslider.jpg"
       }, 
@@ -35,7 +35,7 @@
         "displaydate": "2015",
         "title": "Boerhaave",
         "featured": false,
-        "categories": ["Frontend", "Programming", "Design"],
+        "categories": ["Frontend", "Code", "Design"],
         "imageUrl": "img/portfolio/list/boerhaave1.jpg", 
         "sliderImage": "img/portfolio/slider/vpcslider.jpg"
       }, 
@@ -45,7 +45,7 @@
         "displaydate": "2014",
         "title": "Visionplannercloud",
         "featured": true,
-        "categories": ["Frontend", "Programming"],
+        "categories": ["Frontend", "Code"],
         "imageUrl": "img/portfolio/list/vp6.jpg", 
         "sliderImage": "img/portfolio/slider/vpcslider.jpg"
       },
@@ -65,7 +65,7 @@
         "displaydate": "2013 october",
         "title": "Agrovision Planning",
         "featured": false,
-        "categories": ["Frontend", "Programming"],
+        "categories": ["Frontend", "Code"],
         "imageUrl": "img/portfolio/list/agrovision1.jpg", 
         "sliderImage": "img/portfolio/slider/odyssee.jpg"
       },
@@ -125,7 +125,7 @@
         "displaydate": "2012 april",
         "title": "www.petfoodplaza.nl",
         "featured": false,
-        "categories": ["Frontend", "Programming"],
+        "categories": ["Frontend", "Code"],
         "imageUrl": "img/portfolio/list/pfp1.jpg", 
         "sliderImage": "img/portfolio/slider/pfp1.jpg"
       },
@@ -145,7 +145,7 @@
         "displaydate": "2011 October",
         "title": "MakeYourWallpaper",
         "featured": false,
-        "categories": ["Frontend", "Programming", "Design"],
+        "categories": ["Frontend", "Code", "Design"],
         "imageUrl": "img/portfolio/list/myw1.jpg", 
         "sliderImage": "img/portfolio/slider/skgroep1.jpg"
       },
@@ -175,7 +175,7 @@
         "displaydate": "2010 April",
         "title": "HvA: Technical faculty guide",
         "featured": true,
-        "categories": ["Frontend", "Programming"],
+        "categories": ["Frontend", "Code"],
         "imageUrl": "img/portfolio/list/hva1.jpg", 
         "sliderImage": "img/portfolio/slider/hva1.jpg"
       },
@@ -205,7 +205,7 @@
         "displaydate": "2009 June",
         "title": "Wonderolie portfolio",
         "featured": false,
-        "categories": ["Programming", "Design"],
+        "categories": ["Code", "Design"],
         "imageUrl": "img/portfolio/list/wonderolieportfolio.jpg", 
         "sliderImage": "img/portfolio/slider/wonderolieportfolio.jpg"
       },
@@ -215,7 +215,7 @@
         "displaydate": "2009 March",
         "title": "Danone Toiletgeheimen",
         "featured": false,
-        "categories": ["Programming", "Frontend"],
+        "categories": ["Code", "Frontend"],
         "imageUrl": "img/portfolio/list/toiletgeheimen1.jpg", 
         "sliderImage": "img/portfolio/slider/toiletgeheimen1.jpg"
       },
@@ -225,7 +225,7 @@
         "displaydate": "2008 November",
         "title": "Makeyourwallpaper.com",
         "featured": false,
-        "categories": ["Frontend", "Programming", "Design"],
+        "categories": ["Frontend", "Code", "Design"],
         "imageUrl": "img/portfolio/list/makeyourwallpaper1.jpg", 
         "sliderImage": "img/portfolio/slider/makeyourwallpaper1.jpg"
       },
@@ -255,7 +255,7 @@
         "displaydate": "2007 februari",
         "title": "Robot",
         "featured": false,
-        "categories": ["Programming"],
+        "categories": ["Code"],
         "imageUrl": "img/portfolio/list/robot1.jpg", 
         "sliderImage": "img/portfolio/slider/robot1.jpg"
       },
@@ -285,7 +285,7 @@
         "displaydate": "2006 januari",
         "title": "Shamestation",
         "featured": true,
-        "categories": ["Programming"],
+        "categories": ["Code"],
         "imageUrl": "img/portfolio/list/shamestation1.jpg", 
         "sliderImage": "img/portfolio/slider/shamestation1.jpg"
       },
