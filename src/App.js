@@ -5,7 +5,6 @@ import portFolioService  from './services/portFolioService';
 import logo from './images/wonderolie-logo.svg'
 import PortfolioFilter from './components/PortFolioFilter/PortfolioFilter';
 import constants from './global/constants';
-//import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { withRouter } from 'react-router';
 
 let allItems = [];

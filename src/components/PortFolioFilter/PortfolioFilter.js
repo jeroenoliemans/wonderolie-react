@@ -19,13 +19,13 @@ class PortfolioFilter extends Component {
     this.setState({currentFilter: event.target.value});
     this.props.onCategoryChange(event.target.value);
 
-    this.props.history.push('/');
+    this.props.history.push(`${constants.baseurl}/`);
   }
 
   handleLabelClick(index) {
       this.setState({currentFilter: (index + 1)});
       this.props.onCategoryChange(index + 1);
-    this.props.history.push('/');
+    this.props.history.push(`${constants.baseurl}/`);
   }
 
   render() {

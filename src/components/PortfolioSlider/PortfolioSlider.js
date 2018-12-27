@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './PortfolioSlider.css';
 import constants from '../../global/constants';
-import ReactSiema from './ReactSiema'
-import './PortfolioSlider.css'
+import ReactSiema from './ReactSiema';
+import './PortfolioSlider.css';
 
 class PortfolioSlider extends Component {
   constructor(props) {
@@ -10,7 +10,7 @@ class PortfolioSlider extends Component {
 
     this.state = {
       images: [],
-      width: '100%'
+      width: '360px'
     };
 
     // Create the ref
@@ -51,7 +51,7 @@ class PortfolioSlider extends Component {
 
     const portfolioSliderImages = this.props.sliderImages.map((image, index) => {
       return (
-        <img key={index} src={image} alt="slide" />
+        <img key={index} src={`${process.env.PUBLIC_URL}/${image}`} alt="slide" />
       )
     });
 
