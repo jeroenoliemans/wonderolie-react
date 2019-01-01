@@ -1,17 +1,41 @@
 .PortFolioSlider {
   position: relative;
-  border-top: 5px solid var(--bg-light);
-  border-bottom: 7px solid var(--bg-light);
 }
 
 .PortFolioSliderPrev {
   position: absolute;
   left: 0;
-  top: 50%
+  top: 50%;
+  background-color: var(--interactive);
+  border: none;
+  opacity: 0.7;
+  width: 1.5rem;
+  height: 2rem;
+  border-radius: 0 50% 50% 0;
+  outline: 0;
+  margin-top: -1rem;
+  padding: 3px;
+  cursor: pointer;
+
+
 }
 
 .PortFolioSliderNext {
   position: absolute;
   right: 0;
-  top: 50%
+  top: 50%;
+  background-color: var(--interactive);
+  opacity: 0.7;
+  border: none;
+  width: 1.5rem;
+  height: 2rem;
+  border-radius: 50% 0 0 50%;
+  outline: 0;
+  margin-top: -1rem;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.PortFolioSliderPrev:hover, .PortFolioSliderNext:hover {
+  opacity: 1;
 }

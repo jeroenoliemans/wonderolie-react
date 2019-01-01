@@ -3,6 +3,7 @@ import './PortfolioSlider.css';
 import constants from '../../global/constants';
 import ReactSiema from './ReactSiema';
 import './PortfolioSlider.css';
+import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 class PortfolioSlider extends Component {
   constructor(props) {
@@ -60,8 +61,8 @@ class PortfolioSlider extends Component {
         <ReactSiema ref={siema => this.slider = siema}>
           {portfolioSliderImages}
         </ReactSiema>
-        <button className="PortFolioSliderPrev" onClick={() => this.prevSlide()}>prev</button>
-        <button className="PortFolioSliderNext" onClick={() => this.nextSlide()}>next</button>
+        <button className="PortFolioSliderPrev" onClick={() => this.prevSlide()}><FiChevronLeft /></button>
+        <button className="PortFolioSliderNext" onClick={() => this.nextSlide()}><FiChevronRight /></button>
       </div>
     );
   }
