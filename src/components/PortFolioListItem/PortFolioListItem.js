@@ -31,7 +31,10 @@ class PortFolioListItem extends Component {
       <div style={randomStyle} className="PortFolioListItem"> 
         <div className="PortFolioListItemBox" 
               style={backgroundStyle}>
-          <h3 className="PortfolioLIstItemTitle">{portfolioItem.title}</h3>
+          <h3 className="PortfolioLIstItemTitle">
+            <span>{portfolioItem.title}</span> 
+            <span className="ReleaseDate">{portfolioItem.displaydate}</span>
+            </h3>
           { this.props.location.pathname === `/${portfolioItem.id}` ? <span>DETAIL</span> : null }
         </div>
       </div>

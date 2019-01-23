@@ -36,14 +36,12 @@ class PortFolioDetail extends Component {
 
     return (
       <div className="PortFolioDetail"> 
-        <div className="PortFolioDetailBox">
+          <h1 className="PortFolioDetailTitle">{this.state.detail.name}</h1>
           <section className="PortFolioDetailMeta">
-            <h1 className="PortFolioDetailTitle">{this.state.detail.name}</h1>
             <PortfolioSlider sliderImages={this.state.detail.images} />          
             <SkilList listData={this.state.detail.skills} />  
-            <p className="PortFolioDetailDescription">{this.state.detail.description}</p>  
           </section>
-        </div>
+          <p className="PortFolioDetailDescription">{this.state.detail.description}</p>  
       </div>
     );
   }
