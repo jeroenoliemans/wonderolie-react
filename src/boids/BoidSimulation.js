@@ -74,7 +74,7 @@ class BoidSimulation {
             Math.random()*canvas.height,
             simulation.prng() * 360,
            // 2.8
-           (Math.random()*2)+1
+           (Math.random()*1)+1
         );
         simulation.flock.addBoid(boid);
       }
@@ -99,60 +99,5 @@ class BoidSimulation {
       }
     };
 }
-
-// startBoidSimulation = function() {
-//   var canvas = document.getElementById("main");
-//   var ctx = canvas.getContext("2d");
-
-//   /* Set a seed for the PRNG */
-//   //var seed = 0
-//   simulation.prng = new MRG32k3a(); //seed)
-
-//   document.body.style.overflow = "hidden";
-
-//   window.addEventListener("resize", adjustAndRedraw, false);
-
-//   simulation.flock = new Flock();
-
-//   adjustAndRedraw();
-
-//   /* 30 FPS */
-//   var fps = 30;
-//   window.setInterval(update, 1000 / fps);
-
-//   var initialPop = 40;
-//   for (var i = 0; i < initialPop; i++) {
-//     var boid = new Boid(
-//       canvas,
-//     //   canvas.width * 0.5,
-//     //   canvas.height * 0.5,
-//         Math.random()*canvas.width,
-//         Math.random()*canvas.height,
-//         simulation.prng() * 360,
-//        // 2.8
-//        (Math.random()*2)+1
-//     );
-//     simulation.flock.addBoid(boid);
-//   }
-
-//   function update() {
-//     simulation.flock.update();
-//     redraw();
-//   }
-
-//   function redraw() {
-//     ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-//     ctx.fillStyle = "#f6f6f6";
-//     ctx.strokeStyle = "#aecbf6";
-//     simulation.flock.draw(ctx, canvas.width, canvas.height);
-//   }
-
-//   function adjustAndRedraw() {
-//     canvas.width = window.innerWidth;
-//     canvas.height = window.innerHeight;
-//     redraw();
-//   }
-// };
 
 export default BoidSimulation;

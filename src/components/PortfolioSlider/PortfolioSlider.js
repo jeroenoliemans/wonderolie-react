@@ -28,9 +28,10 @@ class PortfolioSlider extends Component {
   }
 
   componentDidMount() {
-    if(this.containerRef.current.clientWidth < 360) {
+    console.log('this.containerRef.current.clientWidth', this.containerRef.current.clientWidth < 450)
+    if(this.containerRef.current.clientWidth < 450) {
       // resize
-      this.setState({width: `${this.containerRef.current.clientWidth}px`});
+      this.setState({width: `${this.containerRef.current.clientWidth -20}px`});
     }
   }
 

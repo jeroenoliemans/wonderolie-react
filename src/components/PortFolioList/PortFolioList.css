@@ -4,7 +4,7 @@
   padding: 1rem;
   grid-template-columns: 1fr;
   grid-auto-flow: dense;
-  padding: 1em;
+  padding: 10px;
 }
 
 .PortFolioItemActive {
@@ -31,6 +31,13 @@
   .PortFolioItemActive {
     grid-column: span 2;
     grid-row: span 3;
+  }
+}
+
+@media only screen and (min-width: 1230px)  {
+  .PortFolioItemActive {
+    grid-column: span 2;
+    grid-row: span 2;
   }
 }
 

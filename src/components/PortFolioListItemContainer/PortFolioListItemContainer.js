@@ -27,7 +27,7 @@ class PortFolioListItemContainer extends Component {
           { this.checkItem(portfolioItem.id) ? 
             <PortFolioDetail ClassName="PortFolioItemActive" portfolioIid={portfolioItem.id} />
             : 
-            <NavLink activeStyle={{ color: 'red' }} to={`${constants.baseurl}/${portfolioItem.id}`}>
+            <NavLink activeStyle={{ color: 'red' }} activeClassName="active" to={`${constants.baseurl}/${portfolioItem.id}`}>
               <PortFolioListItem portfolioItem={portfolioItem} /> 
             </NavLink>
           }

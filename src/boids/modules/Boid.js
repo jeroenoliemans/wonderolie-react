@@ -200,10 +200,18 @@ function Boid(canvas, x, y, angle, maxSpeed, maxSteeringForce, viewingAngle) {
     }
 
     /* Wrap around the available space. */
-    if (this.pos.x < 0) this.pos.x = width;
-    if (this.pos.x > width) this.pos.x = 0;
-    if (this.pos.y < 0) this.pos.y = height;
-    if (this.pos.y > height) this.pos.y = 0;
+    if (this.pos.x < 0 - 40) {
+      this.pos.x = width;
+    }  
+    if (this.pos.x > width + 40) {
+      this.pos.x = -40;
+    }  
+    if (this.pos.y < 0 - 40) {
+      this.pos.y = height;
+    } 
+    if (this.pos.y > height + 40) {
+      this.pos.y = 0;
+    } 
 
     var theta = Math.atan2(-this.vel.y, this.vel.x);
 

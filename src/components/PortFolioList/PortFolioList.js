@@ -20,7 +20,7 @@ class PortFolioList extends Component {
 
     return (
         <div className="PortFolioList">
-          {portfolioListItems}
+            {portfolioListItems}
         </div>
     );
   }
