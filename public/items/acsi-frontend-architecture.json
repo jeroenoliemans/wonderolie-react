@@ -1,0 +1,15 @@
+{
+  "id": "acsi-frontend-architecture",
+  "displaydate": "2018 august",
+  "description": "During 2018 I started to redefine the frontend architecture of ACSI. The site was too tightly coupled to jQuery, plugins and Compass. I removed the dependency on Compass. Replaced Assetic for Webpack, and moved all to legacy code to a seperate (readonly) folder. After a discussion with the team we to make three script build-lanes for the current sites: Legacy, ES6  and React. After that we began to fill to Jest unit-tested repositories acsi-frontent (ES6) and acsi-react, which would be consumed by the site specific ES6/React code.",
+  "images": [
+    "img/portfolio/detail/ec-react-2.jpg",
+    "img/portfolio/detail/ec-react-3.jpg",
+    "img/portfolio/detail/ec-react-4.jpg",
+    "img/portfolio/detail/ec-react-5.jpg"
+  ],
+  "name": "ACSI frontend architecture",
+  "skills": ["React", "Redux", "Jest", "Webpack", "i18next"],
+  "employer": "ACSI Campsites",
+  "url": "http://www.eurocampings.nl/"
+}

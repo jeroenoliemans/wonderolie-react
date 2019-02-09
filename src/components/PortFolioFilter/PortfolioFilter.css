@@ -17,15 +17,23 @@
   display: flex;
   justify-content: space-between;
   color: var(--text);
-  font-size: 0.9em;
+  font-size: 1.1em;
   padding: 0;
-  font-weight: 400;
+  font-weight: 700;
   font-family: 'Josefin Sans', sans-serif;
+  color: var(--interactive);
 }
 
 .PortFolioFilterLabel {
   width: auto;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.PortFolioFilterLabel span {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
 }
 
 .range {
@@ -45,36 +53,36 @@ input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 20px;
   cursor: pointer;
-  box-shadow: 0px 0px 0.2px var(--interactive), 0px 0px 0px var(--interactive-light);
-  background: var(--interactive);
+  box-shadow: 0px 0px 0.2px var(--interactive-light), 0px 0px 0px var(--interactive);
+  background: var(--interactive-light);
   border-radius: 0px;
-  border: 0px solid var(--interactive);
+  border: 0px solid var(--interactive-light);
 }
 input[type=range]::-webkit-slider-thumb {
-  box-shadow: 0px 0px 0px var(--interactive), 0px 0px 0px var(--interactive-light);
-  border: 0px solid var(--interactive-light);
+  box-shadow: 0px 0px 0px var(--interactive-light), 0px 0px 0px var(--interactive);
+  border: 0px solid var(--interactive);
   height: 40px;
   width: 40px;
   border-radius: 20px;
-  background: var(--interactive-light);
+  background: var(--interactive);
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -10px;
 }
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: var(--interactive);
+  background: var(--interactive-light);
 }
 input[type=range]::-moz-range-track {
   width: 100%;
   height: 20px;
   cursor: pointer;
-  box-shadow: 0px 0px 0.2px var(--interactive), 0px 0px 0px var(--interactive-light);
+  box-shadow: 0px 0px 0.2px var(--interactive-light), 0px 0px 0px var(--interactive);
   background: #205928;
   border-radius: 0px;
   border: 0px solid var(--interactive);
 }
 input[type=range]::-moz-range-thumb {
-  box-shadow: 0px 0px 0px var(--interactive), 0px 0px 0px var(--interactive-light);
+  box-shadow: 0px 0px 0px var(--interactive-light), 0px 0px 0px var(--interactive);
   border: 0px solid #83e584;
   height: 40px;
   width: 40px;
@@ -92,23 +100,23 @@ input[type=range]::-ms-track {
 }
 input[type=range]::-ms-fill-lower {
   background: #194620;
-  border: 0px solid var(--interactive);
+  border: 0px solid var(--interactive-light);
   border-radius: 0px;
-  box-shadow: 0px 0px 0.2px var(--interactive), 0px 0px 0px var(--interactive-light);
+  box-shadow: 0px 0px 0.2px var(--interactive-light), 0px 0px 0px var(--interactive);
 }
 input[type=range]::-ms-fill-upper {
   background: #205928;
-  border: 0px solid var(--interactive);
+  border: 0px solid var(--interactive-light);
   border-radius: 0px;
-  box-shadow: 0px 0px 0.2px var(--interactive), 0px 0px 0px var(--interactive-light);
+  box-shadow: 0px 0px 0.2px var(--interactive-light), 0px 0px 0px var(--interactive);
 }
 input[type=range]::-ms-thumb {
-  box-shadow: 0px 0px 0px var(--interactive), 0px 0px 0px var(--interactive-light);
+  box-shadow: 0px 0px 0px var(--interactive-light), 0px 0px 0px var(--interactive);
   border: 0px solid #83e584;
   height: 40px;
   width: 40px;
   border-radius: 20px;
-  background: var(--interactive-light);
+  background: var(--interactive);
   cursor: pointer;
   height: 20px;
 }
@@ -120,5 +128,13 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 @media only screen and (min-width: 640px) {
-  font-size: 1.5em;
+  .PortFolioFilterLabels {
+    font-size: 2.8vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .PortFolioFilterLabels {
+    font-size: 2vw;
+  }
 }

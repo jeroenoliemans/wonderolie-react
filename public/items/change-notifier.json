@@ -1,0 +1,13 @@
+{
+  "id": "change-notifier",
+  "displaydate": "2018 juli",
+  "description": "2018 marked a big change for the main site of ACSI which neede to convert from a click-through site to commission based booking site. We needed some notification bridge from RethingDB to RabbitMQ  make it possible to process all the proposals during the night. For performance reason I created a node application which listens to RethinkDb change events and passes the changesets to RabbitMq, waiting for furter processes. To scale the application we used the node pm2 process monitor. And monitoring we to New Relic",
+  "images": [
+    "img/portfolio/detail/node-notifier-1.jpg",
+    "img/portfolio/detail/node-notifier-2.jpg"
+  ],
+  "name": "ACSI Campingtours",
+  "skills": ["Node.js", "RethinkDB", "RabbitMQ", "PM2", "New Relic"],
+  "employer": "ACSI Campsites",
+  "url": "http://www.eurocampings.nl/"
+}

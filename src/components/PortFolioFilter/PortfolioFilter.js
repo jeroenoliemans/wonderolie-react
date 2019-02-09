@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './PortfolioFilter.css';
 import constants from '../../global/constants';
-import { FiCode } from 'react-icons/fi';
+import { FiCode, FiLayout, FiImage } from 'react-icons/fi';
 import { withRouter } from 'react-router';
 
 
@@ -11,6 +11,12 @@ class PortfolioFilter extends Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleLabelClick = this.handleLabelClick.bind(this);
+
+  this.iconHash = {
+    "Design": <FiImage />,
+    "Frontend": <FiLayout />, 
+    "Code": <FiCode />
+  }
 
     this.state = {currentFilter: 2};
   }
@@ -35,7 +41,10 @@ class PortfolioFilter extends Component {
 
     const portfolioFilterItems = constants.categories.map((category, index) => {
       return (
-          <span key={index} onClick={() => this.handleLabelClick(index)} className="PortFolioFilterLabel"><FiCode /> {category}</span>
+          <span key={index} onClick={() => this.handleLabelClick(index)} className="PortFolioFilterLabel">
+          {this.iconHash[category]} 
+          <span>{category}</span>
+          </span>
       )
     });
 
