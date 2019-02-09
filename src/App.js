@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import PortFolioList from './components/PortFolioList/PortFolioList';
 import portFolioService  from './services/portFolioService';
+import logo from './images/wonderolie-logo.svg'
 import PortfolioFilter from './components/PortFolioFilter/PortfolioFilter';
 import constants from './global/constants';
-//import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { withRouter } from 'react-router';
 
 let allItems = [];
@@ -58,7 +58,8 @@ class App extends Component {
     return (
         <div className="App">
           <header className="App-header">
-            <h1 className="App-title">Wonderolie passionate developer</h1>
+            <img className="AppLogo" src={logo} />
+            <h1 className="HeaderTeaser">Wonderolie passionate developer</h1>
           </header>
           <PortfolioFilter onCategoryChange={this.categoryChange} />
           <PortFolioList items={this.state.items} />

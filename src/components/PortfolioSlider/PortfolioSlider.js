@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import './PortfolioSlider.css';
 import constants from '../../global/constants';
-import ReactSiema from './ReactSiema'
+import ReactSiema from './ReactSiema';
+import './PortfolioSlider.css';
+import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 class PortfolioSlider extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      images: []
+      images: [],
+      width: '360px'
     };
 
     // Create the ref
+    this.containerRef = React.createRef();
     this.slider = React.createRef()
   }
 
@@ -21,6 +25,14 @@ class PortfolioSlider extends Component {
 
   nextSlide() {
     this.slider.next();
+  }
+
+  componentDidMount() {
+    console.log('this.containerRef.current.clientWidth', this.containerRef.current.clientWidth < 450)
+    if(this.containerRef.current.clientWidth < 450) {
+      // resize
+      this.setState({width: `${this.containerRef.current.clientWidth -20}px`});
+    }
   }
 
   // life cycle
@@ -33,21 +45,25 @@ class PortfolioSlider extends Component {
         sliderImages
     } = this.props;
 
+    let widthStyle = {
+      width: `${this.state.width}`
+    }
+
     let slider;
 
     const portfolioSliderImages = this.props.sliderImages.map((image, index) => {
       return (
-        <img key={index} src={image} alt="slide" />
+        <img key={index} src={`${process.env.PUBLIC_URL}/${image}`} alt="slide" />
       )
     });
 
     return (
-      <div className="PortFolioSlider">
+      <div style={widthStyle} ref={this.containerRef} className="PortFolioSlider">
         <ReactSiema ref={siema => this.slider = siema}>
           {portfolioSliderImages}
         </ReactSiema>
-        <button onClick={() => this.prevSlide()}>prev</button>
-            <button onClick={() => this.nextSlide()}>next</button>
+        <button className="PortFolioSliderPrev" onClick={() => this.prevSlide()}><FiChevronLeft /></button>
+        <button className="PortFolioSliderNext" onClick={() => this.nextSlide()}><FiChevronRight /></button>
       </div>
     );
   }

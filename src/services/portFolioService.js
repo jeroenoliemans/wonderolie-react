@@ -23,10 +23,10 @@ function get(url) {
 
 const portFolioServices = {
     getPortFolioItems: (query) => {
-        return get(`/items/items.json`);
+        return get(`items/items.json`);
     },
     getPortFolioItem: (itemId) => {
-        return get(`/items/${itemId}.json`);
+        return get(`items/${itemId}.json`);
     },
 };
 

@@ -2,8 +2,10 @@ const constants = {
     categories:  [
         "Design", 
         "Frontend", 
-        "Programming"
-    ]
+        "Code"
+    ],
+    baseurl: '',
+    // baseurl: '/filebox/wonderolie-react'
 };
 
 export default constants;

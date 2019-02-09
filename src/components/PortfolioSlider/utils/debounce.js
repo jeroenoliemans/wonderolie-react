@@ -1,7 +1,7 @@
 export default (func, wait, immediate) => {
     let timeout;
-    return () => {
-        let context = this, args = arguments;
+    return (_arguments) => {
+        let context = this, args = _arguments;
         let later = () => {
             timeout = null;
             if (!immediate) func.apply(context, args);

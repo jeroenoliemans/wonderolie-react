@@ -15,9 +15,10 @@ class PortFolioListItem extends Component {
     } = this.props;
 
     let backgroundStyle = {
-      backgroundImage: `url(${portfolioItem.imageUrl})`
+      backgroundImage: `url(${process.env.PUBLIC_URL}/${portfolioItem.imageUrl})`
     }
-    let randomScale = parseInt(Math.random()*3, 10);
+    // let randomScale = parseInt(Math.random()*3, 10);
+    let randomScale = 0;
     //let randomDeg = Math.random()*5 -2;
     let randomDeg = 0;
 
@@ -30,7 +31,10 @@ class PortFolioListItem extends Component {
       <div style={randomStyle} className="PortFolioListItem"> 
         <div className="PortFolioListItemBox" 
               style={backgroundStyle}>
-          <h3 className="PortfolioLIstItemTitle">{portfolioItem.title}</h3>
+          <h3 className="PortfolioLIstItemTitle">
+            <span>{portfolioItem.title}</span> 
+            <span className="ReleaseDate">{portfolioItem.displaydate}</span>
+            </h3>
           { this.props.location.pathname === `/${portfolioItem.id}` ? <span>DETAIL</span> : null }
         </div>
       </div>
