@@ -1,5 +1,6 @@
 let simulation = {};
 
+simulation.bird_box = 30;
 simulation.prng = null;
 simulation.bird_length = 27;
 simulation.bird_wingspan = 36;

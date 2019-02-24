@@ -4,6 +4,7 @@ import PortFolioList from './components/PortFolioList/PortFolioList';
 import portFolioService  from './services/portFolioService';
 import logo from './images/wonderolie-logo.svg'
 import PortfolioFilter from './components/PortFolioFilter/PortfolioFilter';
+import PortFolioFooter from './components/PortFolioFooter/PortFolioFooter';
 import constants from './global/constants';
 import { withRouter } from 'react-router';
 
@@ -63,6 +64,7 @@ class App extends Component {
           </header>
           <PortfolioFilter onCategoryChange={this.categoryChange} />
           <PortFolioList items={this.state.items} />
+          <PortFolioFooter />
         </div>
     );
   }
