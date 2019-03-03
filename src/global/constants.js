@@ -4,8 +4,8 @@ const constants = {
         "Frontend", 
         "Code"
     ],
-    baseurl: '',
-    // baseurl: '/filebox/wonderolie-react'
+    // baseurl: '',
+    baseurl: '/filebox/wonderolie-react'
 };
 
 export default constants;
