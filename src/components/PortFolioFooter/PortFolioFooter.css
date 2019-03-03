@@ -3,5 +3,47 @@
     background-color: rgba(0, 147, 147, 0.8);
     opacity: 0.7;
     padding: 20px;
+    font-weight: bold;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
+
+.PortFolioFooterLink {
+  display: flex;
+  align-items: center;
+}
+
+.PortFolioFooterIcon {
+  font-size: 2rem;
+}
+
+.PortFolioFooterLinkText {
+  display: none;
+}
+
+.PortFolioFooterLink:link, .PortFolioFooterLink:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.PortFolioFooterLink:hover, .PortFolioFooterLink:focus {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 640px) {
+  .PortFolioFooterLinkText {
+    display: inline;
+    margin-left: 1rem;
+  }
+
+  .PortFolioFooter {
+    justify-content: center;
+  }
+
+  .PortFolioFooterLink {
+    margin-right: 3rem;
+  }
+}
