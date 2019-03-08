@@ -20,15 +20,23 @@
     align-items: center;
 }
 
+.PortFolioDetailClose:link, 
+.PortFolioDetailClose:visited, 
+.PortFolioDetailClose:active {
+    color: var(--interactive);
+} 
+
 .PortFolioDetailMeta {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .SkilllList {
     list-style: none;
     padding: 0;
     margin: 1em 0 0 0;
+    width: 100%;
 }
 
 .SkilllListItem {
@@ -59,11 +67,18 @@
 
 @media only screen and (min-width: 640px) {
     .PortFolioDetail {
-        padding: 1rem;
+        padding: 1.5rem;
+    }
+
+    .PortFolioDetailMeta {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: left;
     }
 
     .SkilllList {
         margin-top: 0em;
         margin-left: 1rem;
+        width: auto;
     }
 }

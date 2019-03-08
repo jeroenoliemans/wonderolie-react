@@ -5,7 +5,7 @@
     "images": [
         "img/portfolio/detail/wonderolieportfolio.jpg"
     ], 
-    "name": "ACTM", 
+    "name": "Wonderolie Portfolio",
     "skills": ["Adobe Flex", "Cairngorm MVC", "SWFAdress" ],
     "employer": "Wonderolie"
 }

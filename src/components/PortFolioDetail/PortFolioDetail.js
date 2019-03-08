@@ -39,7 +39,7 @@ class PortFolioDetail extends Component {
       <div className="PortFolioDetail"> 
           <h1 className="PortFolioDetailTitle">
             <span>{this.state.detail.name}</span>
-            <Link to="/" title="close"><FiX /></Link>
+            <Link className="PortFolioDetailClose" to="/" title="close"><FiX /></Link>
           </h1>
           <section className="PortFolioDetailMeta">
             <PortfolioSlider sliderImages={this.state.detail.images} />          
