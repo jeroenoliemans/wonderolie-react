@@ -70,6 +70,16 @@
     "sliderImage": "img/portfolio/slider/vpcslider.jpg"
   },
   {
+    "id": "wonderolie2014",
+    "date": 201407,
+    "displaydate": "2014",
+    "title": "Wonderolie Portfolio",
+    "featured": false,
+    "categories": ["Frontend", "Code", "Design"],
+    "imageUrl": "img/portfolio/list/wo2014-1.jpg",
+    "sliderImage": "img/portfolio/slider/vpcslider.jpg"
+  },
+  {
     "id": "odyssee-service",
     "date": 201401,
     "displaydate": "2014 january",

@@ -1,0 +1,14 @@
+{
+    "id": "Wonderolie",
+    "displaydate": "2014 juli",
+    "description": "An Angular study resulted in a new portfolio, It was a pleasant experience altough more opniated than backbone. The site asynchronously fetches the static json data. An interactive canvas background, was added to make the site more appealing",
+    "images": [
+        "img/portfolio/detail/wo1.jpg",
+        "img/portfolio/detail/wo2.jpg",
+        "img/portfolio/detail/wo3.jpg"
+    ],
+    "name": "Wonderolie",
+    "skills": ["Angular", "Wordpress", "canvas", "CSS", "JavaScript"],
+    "employer": "Wonderolie",
+    "url": "http://www.wonderolie.nl/"
+}
