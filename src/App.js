@@ -6,7 +6,8 @@ import logo from './images/wonderolie-logo.svg'
 import PortfolioFilter from './components/PortFolioFilter/PortfolioFilter';
 import PortFolioFooter from './components/PortFolioFooter/PortFolioFooter';
 import constants from './global/constants';
-import { withRouter } from 'react-router';
+import {withRouter} from 'react-router';
+import {Link} from 'react-router-dom';
 
 let allItems = [];
 
@@ -59,7 +60,9 @@ class App extends Component {
     return (
         <div className="App">
           <header className="App-header">
-            <img className="AppLogo" src={logo} />
+            <Link to="/" title="home">
+              <img className="AppLogo" src={logo} />
+            </Link>
             <h1 className="HeaderTeaser">passionate frontend developer</h1>
           </header>
           <PortfolioFilter onCategoryChange={this.categoryChange} />

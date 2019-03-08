@@ -11,7 +11,8 @@ class PortfolioSlider extends Component {
 
     this.state = {
       images: [],
-      width: '360px'
+      width: '360px',
+      currentSlide: 0
     };
 
     // Create the ref
@@ -21,10 +22,16 @@ class PortfolioSlider extends Component {
 
   prevSlide() {
     this.slider.prev();
+    this.setState({
+      currentSlide: this.slider.currentSlide
+    });
   }
 
   nextSlide() {
     this.slider.next();
+    this.setState({
+      currentSlide: this.slider.currentSlide
+    });
   }
 
   componentDidMount() {
