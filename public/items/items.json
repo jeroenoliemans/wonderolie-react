@@ -20,6 +20,16 @@
     "sliderImage": "img/portfolio/slider/slide-acsireizen1.jpg"
   },
   {
+    "id": "kinderklets",
+    "date": 201711,
+    "displaydate": "2017",
+    "title": "Kinderklets.nl",
+    "featured": false,
+    "categories": ["Frontend", "Code", "Design"],
+    "imageUrl": "img/portfolio/list/kinderklets3.jpg",
+    "sliderImage": "img/portfolio/slider/slide-acsireizen1.jpg"
+  },
+  {
     "id": "acsireizen",
     "date": 201709,
     "displaydate": "2017",

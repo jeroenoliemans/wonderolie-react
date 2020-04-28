@@ -12,7 +12,9 @@ class PortfolioSlider extends Component {
     this.state = {
       images: [],
       width: '360px',
-      currentSlide: 0
+      currentSlide: 0,
+      prevBtn: true,
+      nextBtn: false,
     };
 
     // Create the ref
@@ -20,11 +22,22 @@ class PortfolioSlider extends Component {
     this.slider = React.createRef()
   }
 
+  updateButtonState() {
+    this.setState({
+      prevBtn: this.slider.currentSlide === 0 ? true : false
+    });
+    console.log(this.props.sliderImages);
+    this.setState({
+      nextBtn: this.slider.currentSlide === this.props.sliderImages.length - 1 ? true : false
+    });
+  }
+
   prevSlide() {
     this.slider.prev();
     this.setState({
       currentSlide: this.slider.currentSlide
     });
+    this.updateButtonState();
   }
 
   nextSlide() {
@@ -32,10 +45,10 @@ class PortfolioSlider extends Component {
     this.setState({
       currentSlide: this.slider.currentSlide
     });
+    this.updateButtonState();
   }
 
   componentDidMount() {
-    console.log('this.containerRef.current.clientWidth', this.containerRef.current.clientWidth < 450)
     if(this.containerRef.current.clientWidth < 450) {
       // resize
       this.setState({width: `${this.containerRef.current.clientWidth -20}px`});
@@ -69,8 +82,8 @@ class PortfolioSlider extends Component {
         <ReactSiema ref={siema => this.slider = siema}>
           {portfolioSliderImages}
         </ReactSiema>
-        <button className="PortFolioSliderPrev" onClick={() => this.prevSlide()}><FiChevronLeft /></button>
-        <button className="PortFolioSliderNext" onClick={() => this.nextSlide()}><FiChevronRight /></button>
+        <button className="PortFolioSliderPrev" onClick={() => this.prevSlide()} disabled={this.state.prevBtn}><FiChevronLeft /></button>
+        <button className="PortFolioSliderNext" onClick={() => this.nextSlide()} disabled={this.state.nextBtn}><FiChevronRight /></button>
       </div>
     );
   }

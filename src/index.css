@@ -5,7 +5,9 @@
   --content-darker: #F0EDBB;
   --interactive: #FF3800;
   --interactive-light: #f17b5a;
+  --interactive-border: #f8ad98;
   --text: #13172b;
+  --disabled: #cccccc;
 }
 
 html, body {

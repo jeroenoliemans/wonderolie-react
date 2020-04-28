@@ -1,0 +1,14 @@
+{
+  "id": "kinderklets",
+  "displaydate": "2017 november",
+  "description": "For a children consultancy company I created, designed and developed a format for an online consultancy for children. Consults could be private and payed, or free to be displayed anonimised on the website to help others. Custom email templates where used, and the payments were implemented with the Mollie payment API",
+  "images": [
+    "img/portfolio/detail/kinderklets1.jpg",
+    "img/portfolio/detail/kinderklets2.jpg",
+    "img/portfolio/detail/kinderklets3.jpg"
+  ],
+  "name": "Kinderklets.nl",
+  "skills": ["Wordpress", "Mollie pament API", "front-end", "webdesign"],
+  "employer": "Kinderklets",
+  "url": "http://www.kinderklets.nl/"
+}

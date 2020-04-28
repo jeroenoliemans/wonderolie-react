@@ -1,5 +1,6 @@
 .PortFolioSlider {
   position: relative;
+  border: 1px solid var(--interactive-border);
 }
 
 .PortFolioSliderPrev {
@@ -38,4 +39,9 @@
 
 .PortFolioSliderPrev:hover, .PortFolioSliderNext:hover {
   opacity: 1;
+}
+
+.PortFolioSliderPrev:disabled, .PortFolioSliderNext:disabled {
+  opacity: 1;
+  background-color: var(--disabled);
 }
