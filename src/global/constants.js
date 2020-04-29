@@ -4,7 +4,7 @@ const constants = {
         "Frontend", 
         "Code"
     ],
-    baseurl: '',
+    baseurl: '/portfolio',
     // baseurl: '/filebox/wonderolie-react'
 };
 

@@ -26,7 +26,7 @@ class PortfolioSlider extends Component {
     this.setState({
       prevBtn: this.slider.currentSlide === 0 ? true : false
     });
-    console.log(this.props.sliderImages);
+
     this.setState({
       nextBtn: this.slider.currentSlide === this.props.sliderImages.length - 1 ? true : false
     });

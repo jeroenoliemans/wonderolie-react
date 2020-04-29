@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import constants from '../../global/constants';
 import './PortFolioListItem.css';
 import { withRouter } from 'react-router';
 
@@ -35,7 +36,7 @@ class PortFolioListItem extends Component {
             <span>{portfolioItem.title}</span> 
             <span className="ReleaseDate">{portfolioItem.displaydate}</span>
             </h3>
-          { this.props.location.pathname === `/${portfolioItem.id}` ? <span>DETAIL</span> : null }
+          { this.props.location.pathname === `${constants.baseurl}/${portfolioItem.id}` ? <span>DETAIL</span> : null }
         </div>
       </div>
     );
