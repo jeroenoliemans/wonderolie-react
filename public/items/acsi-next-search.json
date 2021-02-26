@@ -1,0 +1,16 @@
+{
+  "id": "acsi-next-search",
+  "displaydate": "2020 november",
+  "description": "For the new ACSI search page for several Brands I was responsible for the architecture and the foundation. Once realized I worked along with the team to rebuild the searchpage. The new search page became a flexible platform, easy to switch, brands, layout, content, locale and easy to personalize. Redux store became the single source of truth for the frontend and connects to the API calls and to the localized slugs in the url. During this project we also change to TomTom for map provider. The main challenge was to fill the redux store with proper data from a localized slugs in the url.",
+  "images": [
+    "img/portfolio/detail/next-search1.png",
+    "img/portfolio/detail/next-search2.png",
+    "img/portfolio/detail/next-search3.png",
+    "img/portfolio/detail/next-search4.png",
+    "img/portfolio/detail/next-search5.png"
+  ],
+  "name": "ACSI NEXT Search",
+  "skills": ["Frontend Architecture", "React", "Redux", "Jest", "Webpack", "TomTom maps"],
+  "employer": "ACSI Campsites",
+  "url": "http://www.eurocampings.nl/"
+}

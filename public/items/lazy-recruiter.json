@@ -1,0 +1,14 @@
+{
+    "id": "lazyrecruiter",
+    "displaydate": "2021 january",
+    "description": "For some time I wondered about the mismatch for required skills for developers for a specific profile and the skills in the job description. I build this site to help recruiters and small/medium enterprices by selling up to date skill profiles for technical IT professionals. The site is fully localised and build with React, PHP, MySSL and integrates with Mollie for payments.",
+    "images": [
+        "img/portfolio/detail/lazyrecruiter1.png",
+        "img/portfolio/detail/lazyrecruiter2.png",
+        "img/portfolio/detail/lazyrecruiter3.png"
+    ],
+    "name": "LazyRecruiter",
+    "skills": ["PHP", "MySQL", "React", "Mollie pament API", "concept & webdesign "],
+    "employer": "Wonderolie",
+    "url": "http://www.lazyrecruiter.eu"
+}
