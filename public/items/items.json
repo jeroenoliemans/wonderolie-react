@@ -1,5 +1,25 @@
 [
   {
+    "id": "lazyrecruiter",
+    "date": 202101,
+    "displaydate": "2021",
+    "title": "LazyRecruiter",
+    "featured": false,
+    "categories": ["Frontend", "Code", "Design"],
+    "imageUrl": "img/portfolio/list/lazyrecruiter1.png",
+    "sliderImage": "img/portfolio/slider/slide-acsireizen1.jpg"
+  },
+  {
+    "id": "acsi-next-search",
+    "date": 202011,
+    "displaydate": "2020",
+    "title": "ACSI NEXT Search",
+    "featured": false,
+    "categories": ["Frontend", "Code"],
+    "imageUrl": "img/portfolio/list/next-search1.png",
+    "sliderImage": "img/portfolio/slider/slide-acsireizen1.jpg"
+  },
+  {
     "id": "acsi-frontend-architecture",
     "date": 201807,
     "displaydate": "2018",
